@@ -53,6 +53,7 @@ public class Graph {
 		// create node 1
 		Node n1 = new Node(createPathList(p12, p13, p14), true, false, 18);
 
+		// return the newly create graph
 		return new Graph(n1);
 	}
 }
